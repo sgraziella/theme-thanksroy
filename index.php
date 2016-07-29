@@ -7,7 +7,7 @@
     <!-- Featured Item -->
     <div id="featured-item">
         <h2><?php echo __('Featured Item'); ?></h2>
-        <?php echo random_featured_items(1); ?>
+        <?php echo random_featured_items(2); ?> <!-- 2 items -->
     </div><!--end featured-item-->	
     <?php endif; ?>
     <?php if (get_theme_option('Display Featured Collection')): ?>
